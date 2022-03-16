@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--texto1);
+}
+
+:root {
+    --color1:#10010f;
+    --color2:#f8f8f8;
+    --color3:#e0c3c8;
+    --color4:#807676;
+    --texto1: 'Montserrat', sans-serif;
+    --texto2: 'Permanent Marker', cursive;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--color1);
+}
+
+.header{
+    background-color: var(--color2);
+    color: var(--color1);
+    text-align: center;
+    width: 100%;
+}
+
+.nav {
+    background-color: var(--color2);
+    width: 100%;
+    text-align: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    font-size: 1.5rem;
+}
+
+.header h1 {
+    font-weight: bolder;
+    padding: 1rem 0;
+}
+
+
+.nav ul {
+    list-style: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 33%;
+}
+
+.nav a {
+    color: var(--color1);
+    /* margin: 0 3rem; */
+    text-decoration: none;
+    font-weight: bold;
+    /* height: 1rem; */
+}
+
+
+.nav li:hover {
+    background-color: var(--color3);
+}
+
+.nav li {
+    font-size: 1rem;
+    padding: 1rem 10rem;
+    height: auto;
+    /* width: 10rem; */
+    cursor: pointer;
+
+    /* TRANSICIÓN */
+
+    transition: all ease-in-out 250ms;
+
+}
+
+
+.hide {
+    font-size: 22px;
+    padding: 16px;
+    background-color: var(--color1) ;
+    color: var(--color2);
+    cursor: pointer;
+    display: none;
+}
+
+
+/* SECTIONS */
+
+section {
+    width: 100%;
+}
+
+.frase {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/avi-webpage.appspot.com/o/Fondo%20de%20bienvenida.png?alt=media&token=8f68a2ec-4788-4303-94db-3c9dda178c85");
+    background-position-x: center;
+    background-position-y: -8rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 100%;
+    height: 75vh;
+}
+
+.frase {
+    display: flex;
+    align-items: center;
+}
+
+.frase-1 {
+    color: var(--color2);
+    margin-left: 5rem;
+}
+.frase h2 {
+    font-family: var(--texto1);
+    font-size: 2rem;
+    line-height: 10px;
+    
+}
+.frase-1 h1 {
+    font-family: var(--texto2);
+    font-size: 5rem;
+}
+.inicio {
+    background-color: var(--color2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio .local {
+    width: 50%;
+    height: 100vh;
+    background-image: url("https://conelmorrofino.com/wp-content/uploads/2018/10/Las-mejores-panaderias-del-mundo-Portada.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.informacion {
+    width: 50%;
+    color: var(--color1);
+}
+
+.informacion>p {
+    margin: 0 5rem;
+    line-height: 2rem;
+}
+
+
+.panes {
+    background-color: var(--color2);
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.pan {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    
+}
+
+
+.pan img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10rem;
+    border: 10px solid var(--color3);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.pan h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--color1);
+}
+.contactos {
+    background-color: var(--color1);
+    height: auto;
+    color: var(--color2);
+    text-align: center;
+}
+
+.contactos h2 {
+    margin: 2rem 0 15px;
+}
+.redes-sociales {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.red {
+    inline-size: 32px;
+    block-size: 32px;
+    border:none;
+    /* background-color: var(--color2); */
+    cursor: pointer;
+}
+
+
+.redes-sociales>button{
+    margin: 15px 15px;
+}
+#red1 {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/avi-webpage.appspot.com/o/iconos%2FPanader%C3%ADa%2Fred%201.png?alt=media&token=736517d7-e037-4822-a540-46755e4000e9");
+    background-color: transparent;
+    background-size: cover;
+    
+}
+
+#red2 {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/avi-webpage.appspot.com/o/iconos%2FPanader%C3%ADa%2Fred%202.png?alt=media&token=071587b3-b755-49fc-adc8-dd21681f168e");
+    background-color: transparent;
+    background-size: cover;
+    
+}
+#red3 {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/avi-webpage.appspot.com/o/iconos%2FPanader%C3%ADa%2Fred%203.png?alt=media&token=1e3bac4e-f853-40b6-9b3c-65a984da0587");
+    background-color: transparent;
+    background-size: cover;
+    
+}
+
+
+.red:active {
+    transform: scale(.9);
+}
+
+.footer {
+    background-color: var(--color1);
+    /* height: 5rem; */
+    color: var(--color2);
+    text-align: center;
+} 
+
+.footer p {
+    margin-top: 3rem;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .nav ul li {
+        width: 100%;
+        padding: 16px;
+        text-align: left;
+        
+    }
+
+    .nav ul {
+        display: none;
+
+    }
+
+    .hide {
+        display: block;
+    }
+
+    .nav>li {
+        display: none;
+    }
+
+    .frase {
+        background-position-y: 0;
+    }
+    .frase-1 {
+        margin-left: 2rem;
+    }
+
+}
