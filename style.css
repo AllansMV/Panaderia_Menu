@@ -369,13 +369,13 @@ section {
     /* section 3 */
     .panes {
         background-color: var(--color2);
-        height: 220vh;
+        height: 240vh;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
 
-        max-height: 70rem;
+        max-height: 60rem;
     }
 
     .pan {
