@@ -361,17 +361,32 @@ section {
     }
 
     .informacion>p {
-        margin: 2rem 5rem;
+        margin: 2rem 2rem;
         line-height: 2rem;
-        /* text-align: justify; */
+        text-align: justify;
     }
+
+    /* section 3 */
     .panes {
         background-color: var(--color2);
         height: 200vh;
         width: 100%;
         display: grid;
-        grid-gap: 1em;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto);
+    }
+
+    .pan {
+        width: 100%;
+    }
+
+    .pan img {
+        width: 160px;
+        height: 160px;
+        border-width: 6px;
+    }
+
+    .pan h2 {
+        font-size: 120%;
     }
 }
