@@ -288,6 +288,11 @@ section {
 
     /* BARRA DE NAVEGACIÓN */
 
+    .nav {
+        position: sticky;
+        top: 0;
+    }
+
     .nav ul li {
         width: 100%;
         padding: 16px;
