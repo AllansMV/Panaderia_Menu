@@ -275,6 +275,9 @@ section {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+
+    /* BARRA DE NAVEGACIÓN */
+
     .nav ul li {
         width: 100%;
         padding: 16px;
@@ -295,12 +298,34 @@ section {
         display: none;
     }
 
+    /* SECTIONS */
+
     .frase {
         background-position-y: 0;
+        background-position-x: right;
+        
+        
     }
+
+    .frase {
+        display: block;
+        text-align: center;
+    }
+
     .frase-1 {
-        margin-left: 2rem;
+        margin-left: 1rem;
+        margin-top: 5rem;
     }
+
+    .frase h2 {
+        font-size: 1.2rem;
+    }
+
+    .frase h1 {
+        font-size: 2.4rem;
+    }
+
+    /* section 2 */
 
     .inicio {
         height: 100vh;
