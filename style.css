@@ -276,6 +276,16 @@ section {
 /* RESPONSIVE */
 @media (max-width: 768px) {
 
+    /* HEADER */
+
+    .header {
+        font-size: 1rem;
+    }
+
+    .hide {
+        font-size: 18px;
+    }
+
     /* BARRA DE NAVEGACIÓN */
 
     .nav ul li {
