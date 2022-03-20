@@ -85,6 +85,10 @@ body {
 
 }
 
+.nav {
+    position: sticky;
+    top: 0;
+}
 
 .hide {
     font-size: 22px;
